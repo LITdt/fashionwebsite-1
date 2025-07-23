@@ -1,0 +1,172 @@
+*{
+  font-family:'Times New Roman', Times, serif;
+  color:#000000;
+  text-align: center;
+    } /*This makes everything listed below have these attributes - times new roman font and black coloring for the text*/
+
+
+    
+h1{
+    text-align:center;
+    font-size: 6rem;
+    font-size-adjust:1; /*The fallback size - if the website size is adjusted, this is the smallest it'll go?*/
+    max-width:100%;
+    height:auto;
+    padding: 2px;
+}  
+
+
+
+/*the navigation bar*/
+nav.navigate{
+color:#46637D;
+width:auto;
+max-width:100%
+}
+
+nav.ul{
+  margin: 0;
+  padding: 0;
+  padding-bottom: 30px;
+}
+
+ul {
+  
+  list-style-type: none;
+  /*margin:10 10px; - unnecessary?*/
+  padding: 0;
+  overflow: hidden;
+  
+}
+ul.visit{
+ 
+  font-family:"Times New Roman";
+  display:block;
+  
+}
+li.U{
+  display: inline-block;
+}
+
+
+li a {
+  display: block;
+  
+  padding: 14px 16px;
+  text-decoration: none; /*Removes line from bottom of nav*/
+}
+
+
+
+li a:hover {
+  background-color: #ece57f;
+  color:#000000;
+}
+
+
+hr{
+  border-color:#FFFFFF;
+}
+
+/*introduction to the website*/
+p.intro{
+    font-size:1rem;
+    text-align:center; 
+    /*because it is centered 
+    and also has a particular width,
+    it results in being pushed to one side
+    whilst still controlled*/
+    
+    
+}
+
+.search-bar {
+  width: 200px;
+  padding: 5px;
+  font-size-adjust:1rem;
+  color:#000000;
+}
+
+
+/*Current to work on: 
+Images are flexible, but the words (student number X) aren't. 
+Also, the images and links are over the title and subheading....*/
+
+  
+
+/*.list-of-students{
+  flex-wrap:wrap;
+  padding:0;
+  list-style-type:none;
+  gap:5px;
+}*/
+.photo1 {
+    max-width: 100%;
+    height: auto;
+    display:block;
+    align-items:left;
+    padding:2px;
+/*To the left of the page, adapt to screen size*/
+}
+.photo2 {
+    max-width: 100%;
+    height: 245px;
+    align-items: right;
+    display:block;
+    padding:2px;
+    padding-left: 9px;
+    /*To the right of the page, adapt to screen size*/
+}
+.photo3 {
+    max-width:45%;
+    height: auto;
+    display:block;
+    align-items:left;
+    padding:5px;
+    
+}
+
+.photo4 {
+    max-width:45%;
+    height: auto;
+    display:block;
+    align-items:right;
+    padding:5px;
+    
+}
+
+.text{
+  color:#000000;
+  
+} 
+
+h2.heading{
+    text-align:center;
+    width:100%;
+    height:auto;
+    
+}
+
+li.first{
+  float:left;
+}
+
+li.second{
+  float:right;
+}
+
+li.third{
+  float:left;
+}
+
+li.fourth{
+  float:right;
+}
+
+li.fifth{
+  display:block;
+  text-align:center;
+}
+
+/*Containers on image to make them pairs and single in 3 lines,
+ even on different screen sizes*/
